@@ -1,0 +1,1 @@
+select count(*) as COUNT from ECOLI_DATA where ((genotype & 1) or (genotype & 4)) and !(genotype & 2);
