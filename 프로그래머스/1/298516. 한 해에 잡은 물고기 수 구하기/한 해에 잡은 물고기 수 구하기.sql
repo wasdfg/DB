@@ -1,1 +1,1 @@
-select count(*) as FISH_COUNT from fish_info where time between '2021/01/01' and '2022/01/01';
+select count(*) as FISH_COUNT from fish_info where TIME between '2021/01/01' and '2021/12/31';
