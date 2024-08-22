@@ -1,2 +1,1 @@
-select ID,LENGTH from fish_info order by length desc limit 10; 
-
+select ID,LENGTH from FISH_INFO order by length desc,ID asc limit 10;
