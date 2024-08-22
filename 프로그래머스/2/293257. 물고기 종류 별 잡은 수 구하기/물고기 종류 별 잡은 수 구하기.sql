@@ -1,0 +1,1 @@
+select count(fish_info.fish_type) as FISH_COUNT,FISH_NAME from fish_info left join fish_name_info on fish_info.fish_type = fish_name_info.fish_type group by fish_name order by fish_count desc;
