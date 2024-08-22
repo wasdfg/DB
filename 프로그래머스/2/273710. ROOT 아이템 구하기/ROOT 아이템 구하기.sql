@@ -1,0 +1,1 @@
+select ITEM_INFO.ITEM_ID as ITEM_ID,ITEM_NAME from ITEM_INFO left join item_tree on ITEM_INFO.item_id = item_tree.item_id where PARENT_ITEM_ID is null order by ITEM_INFO.item_id;
