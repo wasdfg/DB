@@ -1,0 +1,1 @@
+select USER_ID,NICKNAME,sum(price) as TOTAL_SALES from USED_GOODS_BOARD left join USED_GOODS_USER on writer_id = user_id where status = 'DONE' group by user_id having sum(price) >= 700000 order by total_sales;
